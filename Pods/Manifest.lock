@@ -1,0 +1,61 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Expecta (1.0.5)
+  - ISO8601DateFormatter (0.8)
+  - Mantle (2.0.7):
+    - Mantle/extobjc (= 2.0.7)
+  - Mantle/extobjc (2.0.7)
+  - OHHTTPStubs (4.8.0):
+    - OHHTTPStubs/Default (= 4.8.0)
+  - OHHTTPStubs/Core (4.8.0)
+  - OHHTTPStubs/Default (4.8.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (4.8.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (4.8.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (4.8.0)
+  - STPopup (1.8.0)
+  - SVProgressHUD (2.0.3)
+  - UIImageView-Letters (1.1.4)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Expecta (~> 1.0.0)
+  - ISO8601DateFormatter (~> 0.7)
+  - Mantle (~> 2.0.6)
+  - OHHTTPStubs (~> 4.0)
+  - STPopup
+  - SVProgressHUD
+  - UIImageView-Letters
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  ISO8601DateFormatter: 4551b6ce4f83185425f583b0b3feb3c7b59b942c
+  Mantle: bc40bb061d8c2c6fb48d5083e04d928c3b7f73d9
+  OHHTTPStubs: b393565822317305b87a1440d4c7aff131679f66
+  STPopup: af630a85628e4226ffcbda5caaead0d99aed13a8
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  UIImageView-Letters: f62db28076797adf3560ab7410647dc6899b9eef
+
+PODFILE CHECKSUM: 2bf98d8a05054e1f5dafbc58eb6aa0e6566596b3
+
+COCOAPODS: 1.0.1

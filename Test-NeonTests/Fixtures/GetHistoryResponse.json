@@ -1,0 +1,30 @@
+ [
+  {
+    "Id": 12,
+    "ClienteId": 10,
+    "Valor": 24,
+    "Token": "1d40d305­c836­43a2­b4db­acc56bcc1393",
+    "Data": "2016­08­02T14:25:37.55"
+  },
+  {
+  "Id": 13,
+  "ClienteId": 11,
+  "Valor": 24.10,
+  "Token": "1d40d305­c836­43a2­b4db­acc56bcc1393",
+  "Data": "2016­08­02T14:25:37.55"
+  },
+  {
+  "Id": 14,
+  "ClienteId": 12,
+  "Valor": 212.21,
+  "Token": "1d40d305­c836­43a2­b4db­acc56bcc1393",
+  "Data": "2016­08­02T14:25:37.55"
+  },
+  {
+  "Id": 15,
+  "ClienteId": 13,
+  "Valor": 21.2,
+  "Token": "1d40d305­c836­43a2­b4db­acc56bcc1393",
+  "Data": "2016­08­02T14:25:37.55"
+  }
+]

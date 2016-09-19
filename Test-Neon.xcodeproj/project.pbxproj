@@ -7,14 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80496CC11D8E08BA00C2885E /* UserDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 80496CC01D8E08BA00C2885E /* UserDAO.m */; };
+		80496CC41D8E096600C2885E /* ModelConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 80496CC31D8E096600C2885E /* ModelConverter.m */; };
+		80496CC81D8E0BF100C2885E /* ErrorHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 80496CC71D8E0BF100C2885E /* ErrorHandler.m */; };
+		80496CCE1D8E12BD00C2885E /* TransferWSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80496CCD1D8E12BD00C2885E /* TransferWSTests.m */; };
+		80496CD11D8E1A7200C2885E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80496CD01D8E1A7200C2885E /* HomeViewController.m */; };
+		80496CD41D8EFC0B00C2885E /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80496CD31D8EFC0B00C2885E /* ContactsViewController.m */; };
+		80496CD71D8EFC1E00C2885E /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80496CD61D8EFC1E00C2885E /* HistoryViewController.m */; };
+		80496CDA1D8F0D4F00C2885E /* ContactViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80496CD91D8F0D4F00C2885E /* ContactViewCell.m */; };
+		80496CDD1D8F0DB200C2885E /* PersonModelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80496CDC1D8F0DB200C2885E /* PersonModelView.m */; };
+		80577BC51D8F17D600722967 /* UIColor+NeonColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 80577BC41D8F17D600722967 /* UIColor+NeonColors.m */; };
+		80577BC81D8F259C00722967 /* SendPopUpConfirmationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80577BC71D8F259C00722967 /* SendPopUpConfirmationViewController.m */; };
+		80577BCB1D8F3DC300722967 /* TransferRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 80577BCA1D8F3DC300722967 /* TransferRequestModel.m */; };
+		80577BCD1D8F4F6500722967 /* GetHistoryResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 80577BCC1D8F4F6500722967 /* GetHistoryResponse.json */; };
+		80577BD01D8F549E00722967 /* ContactHistoryViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80577BCF1D8F549E00722967 /* ContactHistoryViewCell.m */; };
+		80577BD31D8F555C00722967 /* TransferModelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80577BD21D8F555C00722967 /* TransferModelView.m */; };
+		80577BD61D8F5EA300722967 /* NeonDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 80577BD51D8F5EA300722967 /* NeonDateFormatter.m */; };
+		80577BDB1D8F66C800722967 /* PersonModelViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80577BDA1D8F66C800722967 /* PersonModelViewTests.m */; };
+		80577BDD1D8F682600722967 /* TransferModelViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80577BDC1D8F682600722967 /* TransferModelViewTests.m */; };
+		8086805A1D8C84DA001567F1 /* PersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 808680591D8C84DA001567F1 /* PersonModel.m */; };
+		8086805D1D8C8A5D001567F1 /* TransferModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8086805C1D8C8A5D001567F1 /* TransferModel.m */; };
+		808680611D8C8BC7001567F1 /* GeneratePersonsUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 808680601D8C8BC7001567F1 /* GeneratePersonsUtil.m */; };
+		808680651D8C8D4F001567F1 /* PersonsDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 808680641D8C8D4F001567F1 /* PersonsDAO.m */; };
+		808680681D8C8EEF001567F1 /* BaseDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 808680671D8C8EEF001567F1 /* BaseDAO.m */; };
+		8086806B1D8CB5D2001567F1 /* DateConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8086806A1D8CB5D2001567F1 /* DateConverter.m */; };
+		808680711D8CB709001567F1 /* BaseTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 808680701D8CB709001567F1 /* BaseTest.m */; };
+		808680771D8CB807001567F1 /* PersonsDAOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 808680761D8CB807001567F1 /* PersonsDAOTests.m */; };
+		808680791D8CC0C5001567F1 /* TransferModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 808680781D8CC0C5001567F1 /* TransferModelTests.m */; };
+		8086807E1D8CC1D6001567F1 /* WebServiceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8086807D1D8CC1D6001567F1 /* WebServiceClient.m */; };
+		808680821D8CC278001567F1 /* TransferWS.m in Sources */ = {isa = PBXBuildFile; fileRef = 808680811D8CC278001567F1 /* TransferWS.m */; };
 		80CF019A1D8C78B9008FC781 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CF01991D8C78B9008FC781 /* main.m */; };
-		80CF019D1D8C78B9008FC781 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CF019C1D8C78B9008FC781 /* AppDelegate.m */; };
-		80CF01A01D8C78B9008FC781 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CF019F1D8C78B9008FC781 /* MasterViewController.m */; };
-		80CF01A31D8C78B9008FC781 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CF01A21D8C78B9008FC781 /* DetailViewController.m */; };
 		80CF01A61D8C78B9008FC781 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CF01A41D8C78B9008FC781 /* Main.storyboard */; };
 		80CF01A81D8C78B9008FC781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80CF01A71D8C78B9008FC781 /* Assets.xcassets */; };
 		80CF01AB1D8C78B9008FC781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CF01A91D8C78B9008FC781 /* LaunchScreen.storyboard */; };
 		80CF01B61D8C78B9008FC781 /* Test_NeonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CF01B51D8C78B9008FC781 /* Test_NeonTests.m */; };
+		80CF01C91D8C7B8F008FC781 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CF01C81D8C7B8F008FC781 /* AppDelegate.m */; };
+		80CF01CC1D8C80AD008FC781 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CF01CB1D8C80AD008FC781 /* BaseModel.m */; };
+		9E09C35BB4007EA8335480CA /* libPods-Test-Neon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A1F279FDE6BEC4B6301693 /* libPods-Test-Neon.a */; };
+		A80A50D9B30B0DC29C3074C9 /* libPods-Test-NeonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 338B1953069AC0EEE6E7EE29 /* libPods-Test-NeonTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +58,63 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		225DD19DFAEFB83A0DA58DD8 /* Pods-Test-NeonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test-NeonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Test-NeonTests/Pods-Test-NeonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		338B1953069AC0EEE6E7EE29 /* libPods-Test-NeonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Test-NeonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		626121073654B49FDFCE4BDA /* Pods-Test-Neon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test-Neon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Test-Neon/Pods-Test-Neon.debug.xcconfig"; sourceTree = "<group>"; };
+		80496CBF1D8E08BA00C2885E /* UserDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserDAO.h; path = DAO/UserDAO.h; sourceTree = "<group>"; };
+		80496CC01D8E08BA00C2885E /* UserDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserDAO.m; path = DAO/UserDAO.m; sourceTree = "<group>"; };
+		80496CC21D8E096600C2885E /* ModelConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelConverter.h; path = Utils/ModelConverter.h; sourceTree = "<group>"; };
+		80496CC31D8E096600C2885E /* ModelConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModelConverter.m; path = Utils/ModelConverter.m; sourceTree = "<group>"; };
+		80496CC61D8E0BF100C2885E /* ErrorHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ErrorHandler.h; path = Utils/ErrorHandler.h; sourceTree = "<group>"; };
+		80496CC71D8E0BF100C2885E /* ErrorHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ErrorHandler.m; path = Utils/ErrorHandler.m; sourceTree = "<group>"; };
+		80496CCD1D8E12BD00C2885E /* TransferWSTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransferWSTests.m; path = Classes/WS/TransferWSTests.m; sourceTree = "<group>"; };
+		80496CCF1D8E1A7200C2885E /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = Controller/HomeViewController.h; sourceTree = "<group>"; };
+		80496CD01D8E1A7200C2885E /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = Controller/HomeViewController.m; sourceTree = "<group>"; };
+		80496CD21D8EFC0B00C2885E /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactsViewController.h; path = Controller/ContactsViewController.h; sourceTree = "<group>"; };
+		80496CD31D8EFC0B00C2885E /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactsViewController.m; path = Controller/ContactsViewController.m; sourceTree = "<group>"; };
+		80496CD51D8EFC1E00C2885E /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HistoryViewController.h; path = Controller/HistoryViewController.h; sourceTree = "<group>"; };
+		80496CD61D8EFC1E00C2885E /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HistoryViewController.m; path = Controller/HistoryViewController.m; sourceTree = "<group>"; };
+		80496CD81D8F0D4F00C2885E /* ContactViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactViewCell.h; path = View/ContactViewCell.h; sourceTree = "<group>"; };
+		80496CD91D8F0D4F00C2885E /* ContactViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactViewCell.m; path = View/ContactViewCell.m; sourceTree = "<group>"; };
+		80496CDB1D8F0DB200C2885E /* PersonModelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonModelView.h; path = ModelView/PersonModelView.h; sourceTree = "<group>"; };
+		80496CDC1D8F0DB200C2885E /* PersonModelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonModelView.m; path = ModelView/PersonModelView.m; sourceTree = "<group>"; };
+		80577BC31D8F17D600722967 /* UIColor+NeonColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+NeonColors.h"; path = "Utils/UIColor+NeonColors.h"; sourceTree = "<group>"; };
+		80577BC41D8F17D600722967 /* UIColor+NeonColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+NeonColors.m"; path = "Utils/UIColor+NeonColors.m"; sourceTree = "<group>"; };
+		80577BC61D8F259C00722967 /* SendPopUpConfirmationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SendPopUpConfirmationViewController.h; path = Controller/SendPopUpConfirmationViewController.h; sourceTree = "<group>"; };
+		80577BC71D8F259C00722967 /* SendPopUpConfirmationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SendPopUpConfirmationViewController.m; path = Controller/SendPopUpConfirmationViewController.m; sourceTree = "<group>"; };
+		80577BC91D8F3DC300722967 /* TransferRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransferRequestModel.h; path = Model/TransferRequestModel.h; sourceTree = "<group>"; };
+		80577BCA1D8F3DC300722967 /* TransferRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransferRequestModel.m; path = Model/TransferRequestModel.m; sourceTree = "<group>"; };
+		80577BCC1D8F4F6500722967 /* GetHistoryResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = GetHistoryResponse.json; path = Fixtures/GetHistoryResponse.json; sourceTree = "<group>"; };
+		80577BCE1D8F549E00722967 /* ContactHistoryViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactHistoryViewCell.h; path = View/ContactHistoryViewCell.h; sourceTree = "<group>"; };
+		80577BCF1D8F549E00722967 /* ContactHistoryViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactHistoryViewCell.m; path = View/ContactHistoryViewCell.m; sourceTree = "<group>"; };
+		80577BD11D8F555C00722967 /* TransferModelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransferModelView.h; path = ModelView/TransferModelView.h; sourceTree = "<group>"; };
+		80577BD21D8F555C00722967 /* TransferModelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransferModelView.m; path = ModelView/TransferModelView.m; sourceTree = "<group>"; };
+		80577BD41D8F5EA300722967 /* NeonDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NeonDateFormatter.h; path = Utils/NeonDateFormatter.h; sourceTree = "<group>"; };
+		80577BD51D8F5EA300722967 /* NeonDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NeonDateFormatter.m; path = Utils/NeonDateFormatter.m; sourceTree = "<group>"; };
+		80577BDA1D8F66C800722967 /* PersonModelViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonModelViewTests.m; path = Classes/ModelView/PersonModelViewTests.m; sourceTree = "<group>"; };
+		80577BDC1D8F682600722967 /* TransferModelViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransferModelViewTests.m; path = Classes/ModelView/TransferModelViewTests.m; sourceTree = "<group>"; };
+		808680581D8C84DA001567F1 /* PersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonModel.h; path = Model/PersonModel.h; sourceTree = "<group>"; };
+		808680591D8C84DA001567F1 /* PersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonModel.m; path = Model/PersonModel.m; sourceTree = "<group>"; };
+		8086805B1D8C8A5D001567F1 /* TransferModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransferModel.h; path = Model/TransferModel.h; sourceTree = "<group>"; };
+		8086805C1D8C8A5D001567F1 /* TransferModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransferModel.m; path = Model/TransferModel.m; sourceTree = "<group>"; };
+		8086805F1D8C8BC6001567F1 /* GeneratePersonsUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeneratePersonsUtil.h; path = Utils/GeneratePersonsUtil.h; sourceTree = "<group>"; };
+		808680601D8C8BC7001567F1 /* GeneratePersonsUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GeneratePersonsUtil.m; path = Utils/GeneratePersonsUtil.m; sourceTree = "<group>"; };
+		808680631D8C8D4F001567F1 /* PersonsDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonsDAO.h; path = DAO/PersonsDAO.h; sourceTree = "<group>"; };
+		808680641D8C8D4F001567F1 /* PersonsDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonsDAO.m; path = DAO/PersonsDAO.m; sourceTree = "<group>"; };
+		808680661D8C8EEF001567F1 /* BaseDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseDAO.h; path = DAO/BaseDAO.h; sourceTree = "<group>"; };
+		808680671D8C8EEF001567F1 /* BaseDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseDAO.m; path = DAO/BaseDAO.m; sourceTree = "<group>"; };
+		808680691D8CB5D2001567F1 /* DateConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DateConverter.h; path = Utils/DateConverter.h; sourceTree = "<group>"; };
+		8086806A1D8CB5D2001567F1 /* DateConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DateConverter.m; path = Utils/DateConverter.m; sourceTree = "<group>"; };
+		8086806F1D8CB709001567F1 /* BaseTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTest.h; sourceTree = "<group>"; };
+		808680701D8CB709001567F1 /* BaseTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTest.m; sourceTree = "<group>"; };
+		808680761D8CB807001567F1 /* PersonsDAOTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonsDAOTests.m; path = Classes/DAO/PersonsDAOTests.m; sourceTree = "<group>"; };
+		808680781D8CC0C5001567F1 /* TransferModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransferModelTests.m; path = Classes/Model/TransferModelTests.m; sourceTree = "<group>"; };
+		8086807C1D8CC1D6001567F1 /* WebServiceClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebServiceClient.h; path = WebService/WebServiceClient.h; sourceTree = "<group>"; };
+		8086807D1D8CC1D6001567F1 /* WebServiceClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebServiceClient.m; path = WebService/WebServiceClient.m; sourceTree = "<group>"; };
+		808680801D8CC278001567F1 /* TransferWS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransferWS.h; path = WebService/Transfers/TransferWS.h; sourceTree = "<group>"; };
+		808680811D8CC278001567F1 /* TransferWS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransferWS.m; path = WebService/Transfers/TransferWS.m; sourceTree = "<group>"; };
 		80CF01951D8C78B9008FC781 /* Test-Neon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test-Neon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80CF01991D8C78B9008FC781 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		80CF019B1D8C78B9008FC781 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		80CF019C1D8C78B9008FC781 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		80CF019E1D8C78B9008FC781 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		80CF019F1D8C78B9008FC781 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		80CF01A11D8C78B9008FC781 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		80CF01A21D8C78B9008FC781 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		80CF01A51D8C78B9008FC781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80CF01A71D8C78B9008FC781 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80CF01AA1D8C78B9008FC781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -43,6 +122,13 @@
 		80CF01B11D8C78B9008FC781 /* Test-NeonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test-NeonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80CF01B51D8C78B9008FC781 /* Test_NeonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_NeonTests.m; sourceTree = "<group>"; };
 		80CF01B71D8C78B9008FC781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80CF01C71D8C7B8F008FC781 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Application/AppDelegate.h; sourceTree = "<group>"; };
+		80CF01C81D8C7B8F008FC781 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Application/AppDelegate.m; sourceTree = "<group>"; };
+		80CF01CA1D8C80AD008FC781 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseModel.h; path = Model/BaseModel.h; sourceTree = "<group>"; };
+		80CF01CB1D8C80AD008FC781 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseModel.m; path = Model/BaseModel.m; sourceTree = "<group>"; };
+		C6DD394BB370CE3F6924DADF /* Pods-Test-Neon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test-Neon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Test-Neon/Pods-Test-Neon.release.xcconfig"; sourceTree = "<group>"; };
+		E4A1F279FDE6BEC4B6301693 /* libPods-Test-Neon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Test-Neon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F087A394F9DF903A768C8693 /* Pods-Test-NeonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test-NeonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Test-NeonTests/Pods-Test-NeonTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E09C35BB4007EA8335480CA /* libPods-Test-Neon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,18 +144,130 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A80A50D9B30B0DC29C3074C9 /* libPods-Test-NeonTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80496CC51D8E09A000C2885E /* Converters */ = {
+			isa = PBXGroup;
+			children = (
+				808680691D8CB5D2001567F1 /* DateConverter.h */,
+				8086806A1D8CB5D2001567F1 /* DateConverter.m */,
+				80496CC21D8E096600C2885E /* ModelConverter.h */,
+				80496CC31D8E096600C2885E /* ModelConverter.m */,
+			);
+			name = Converters;
+			sourceTree = "<group>";
+		};
+		80496CC91D8E127000C2885E /* WS */ = {
+			isa = PBXGroup;
+			children = (
+				80496CCD1D8E12BD00C2885E /* TransferWSTests.m */,
+			);
+			name = WS;
+			sourceTree = "<group>";
+		};
+		80577BC21D8F17A400722967 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				80577BC31D8F17D600722967 /* UIColor+NeonColors.h */,
+				80577BC41D8F17D600722967 /* UIColor+NeonColors.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		80577BD91D8F66AF00722967 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				80577BDA1D8F66C800722967 /* PersonModelViewTests.m */,
+				80577BDC1D8F682600722967 /* TransferModelViewTests.m */,
+			);
+			name = ModelView;
+			sourceTree = "<group>";
+		};
+		8086805E1D8C8B9B001567F1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				80496CC61D8E0BF100C2885E /* ErrorHandler.h */,
+				80496CC71D8E0BF100C2885E /* ErrorHandler.m */,
+				8086805F1D8C8BC6001567F1 /* GeneratePersonsUtil.h */,
+				808680601D8C8BC7001567F1 /* GeneratePersonsUtil.m */,
+				80577BD41D8F5EA300722967 /* NeonDateFormatter.h */,
+				80577BD51D8F5EA300722967 /* NeonDateFormatter.m */,
+				80577BC21D8F17A400722967 /* Categories */,
+				80496CC51D8E09A000C2885E /* Converters */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		808680621D8C8D2F001567F1 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				808680631D8C8D4F001567F1 /* PersonsDAO.h */,
+				808680641D8C8D4F001567F1 /* PersonsDAO.m */,
+				808680661D8C8EEF001567F1 /* BaseDAO.h */,
+				808680671D8C8EEF001567F1 /* BaseDAO.m */,
+				80496CBF1D8E08BA00C2885E /* UserDAO.h */,
+				80496CC01D8E08BA00C2885E /* UserDAO.m */,
+			);
+			name = DAO;
+			sourceTree = "<group>";
+		};
+		8086806D1D8CB6C0001567F1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				80577BD91D8F66AF00722967 /* ModelView */,
+				80496CC91D8E127000C2885E /* WS */,
+				808680751D8CB7EC001567F1 /* DAO */,
+				808680721D8CB778001567F1 /* Model */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		8086806E1D8CB6D0001567F1 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				80577BCC1D8F4F6500722967 /* GetHistoryResponse.json */,
+			);
+			name = Fixtures;
+			sourceTree = "<group>";
+		};
+		808680721D8CB778001567F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				808680781D8CC0C5001567F1 /* TransferModelTests.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		808680751D8CB7EC001567F1 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				808680761D8CB807001567F1 /* PersonsDAOTests.m */,
+			);
+			name = DAO;
+			sourceTree = "<group>";
+		};
+		8086807F1D8CC23C001567F1 /* Transfers */ = {
+			isa = PBXGroup;
+			children = (
+				808680801D8CC278001567F1 /* TransferWS.h */,
+				808680811D8CC278001567F1 /* TransferWS.m */,
+			);
+			name = Transfers;
+			sourceTree = "<group>";
+		};
 		80CF018C1D8C78B9008FC781 = {
 			isa = PBXGroup;
 			children = (
 				80CF01971D8C78B9008FC781 /* Test-Neon */,
 				80CF01B41D8C78B9008FC781 /* Test-NeonTests */,
 				80CF01961D8C78B9008FC781 /* Products */,
+				ADA1CC5F9DA8AC2D9D2B6E0F /* Pods */,
+				DEC00288E0C7DEF5C6207CFA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,15 +283,16 @@
 		80CF01971D8C78B9008FC781 /* Test-Neon */ = {
 			isa = PBXGroup;
 			children = (
-				80CF019B1D8C78B9008FC781 /* AppDelegate.h */,
-				80CF019C1D8C78B9008FC781 /* AppDelegate.m */,
-				80CF019E1D8C78B9008FC781 /* MasterViewController.h */,
-				80CF019F1D8C78B9008FC781 /* MasterViewController.m */,
-				80CF01A11D8C78B9008FC781 /* DetailViewController.h */,
-				80CF01A21D8C78B9008FC781 /* DetailViewController.m */,
-				80CF01A41D8C78B9008FC781 /* Main.storyboard */,
+				808680621D8C8D2F001567F1 /* DAO */,
+				8086805E1D8C8B9B001567F1 /* Utils */,
+				80CF01C51D8C7A88008FC781 /* Application */,
+				80CF01C31D8C7A5E008FC781 /* Controller */,
+				80CF01C01D8C791C008FC781 /* Model */,
+				80CF01C21D8C7929008FC781 /* ModelView */,
+				80CF01C61D8C7AA3008FC781 /* Storyboard */,
+				80CF01C11D8C7923008FC781 /* View */,
+				80CF01C41D8C7A77008FC781 /* WebService */,
 				80CF01A71D8C78B9008FC781 /* Assets.xcassets */,
-				80CF01A91D8C78B9008FC781 /* LaunchScreen.storyboard */,
 				80CF01AC1D8C78B9008FC781 /* Info.plist */,
 				80CF01981D8C78B9008FC781 /* Supporting Files */,
 			);
@@ -110,10 +310,114 @@
 		80CF01B41D8C78B9008FC781 /* Test-NeonTests */ = {
 			isa = PBXGroup;
 			children = (
+				8086806F1D8CB709001567F1 /* BaseTest.h */,
+				808680701D8CB709001567F1 /* BaseTest.m */,
+				8086806E1D8CB6D0001567F1 /* Fixtures */,
+				8086806D1D8CB6C0001567F1 /* Classes */,
 				80CF01B51D8C78B9008FC781 /* Test_NeonTests.m */,
 				80CF01B71D8C78B9008FC781 /* Info.plist */,
 			);
 			path = "Test-NeonTests";
+			sourceTree = "<group>";
+		};
+		80CF01C01D8C791C008FC781 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				80CF01CA1D8C80AD008FC781 /* BaseModel.h */,
+				80CF01CB1D8C80AD008FC781 /* BaseModel.m */,
+				808680581D8C84DA001567F1 /* PersonModel.h */,
+				808680591D8C84DA001567F1 /* PersonModel.m */,
+				8086805B1D8C8A5D001567F1 /* TransferModel.h */,
+				8086805C1D8C8A5D001567F1 /* TransferModel.m */,
+				80577BC91D8F3DC300722967 /* TransferRequestModel.h */,
+				80577BCA1D8F3DC300722967 /* TransferRequestModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		80CF01C11D8C7923008FC781 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				80496CD81D8F0D4F00C2885E /* ContactViewCell.h */,
+				80496CD91D8F0D4F00C2885E /* ContactViewCell.m */,
+				80577BCE1D8F549E00722967 /* ContactHistoryViewCell.h */,
+				80577BCF1D8F549E00722967 /* ContactHistoryViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		80CF01C21D8C7929008FC781 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				80496CDB1D8F0DB200C2885E /* PersonModelView.h */,
+				80496CDC1D8F0DB200C2885E /* PersonModelView.m */,
+				80577BD11D8F555C00722967 /* TransferModelView.h */,
+				80577BD21D8F555C00722967 /* TransferModelView.m */,
+			);
+			name = ModelView;
+			sourceTree = "<group>";
+		};
+		80CF01C31D8C7A5E008FC781 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				80496CD21D8EFC0B00C2885E /* ContactsViewController.h */,
+				80496CD31D8EFC0B00C2885E /* ContactsViewController.m */,
+				80496CCF1D8E1A7200C2885E /* HomeViewController.h */,
+				80496CD01D8E1A7200C2885E /* HomeViewController.m */,
+				80496CD51D8EFC1E00C2885E /* HistoryViewController.h */,
+				80496CD61D8EFC1E00C2885E /* HistoryViewController.m */,
+				80577BC61D8F259C00722967 /* SendPopUpConfirmationViewController.h */,
+				80577BC71D8F259C00722967 /* SendPopUpConfirmationViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		80CF01C41D8C7A77008FC781 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				8086807C1D8CC1D6001567F1 /* WebServiceClient.h */,
+				8086807D1D8CC1D6001567F1 /* WebServiceClient.m */,
+				8086807F1D8CC23C001567F1 /* Transfers */,
+			);
+			name = WebService;
+			sourceTree = "<group>";
+		};
+		80CF01C51D8C7A88008FC781 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				80CF01C71D8C7B8F008FC781 /* AppDelegate.h */,
+				80CF01C81D8C7B8F008FC781 /* AppDelegate.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		80CF01C61D8C7AA3008FC781 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				80CF01A41D8C78B9008FC781 /* Main.storyboard */,
+				80CF01A91D8C78B9008FC781 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		ADA1CC5F9DA8AC2D9D2B6E0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				225DD19DFAEFB83A0DA58DD8 /* Pods-Test-NeonTests.debug.xcconfig */,
+				F087A394F9DF903A768C8693 /* Pods-Test-NeonTests.release.xcconfig */,
+				626121073654B49FDFCE4BDA /* Pods-Test-Neon.debug.xcconfig */,
+				C6DD394BB370CE3F6924DADF /* Pods-Test-Neon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DEC00288E0C7DEF5C6207CFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				338B1953069AC0EEE6E7EE29 /* libPods-Test-NeonTests.a */,
+				E4A1F279FDE6BEC4B6301693 /* libPods-Test-Neon.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +427,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80CF01BA1D8C78B9008FC781 /* Build configuration list for PBXNativeTarget "Test-Neon" */;
 			buildPhases = (
+				8D8884CBAEE3ACDD3A66EC6B /* [CP] Check Pods Manifest.lock */,
 				80CF01911D8C78B9008FC781 /* Sources */,
 				80CF01921D8C78B9008FC781 /* Frameworks */,
 				80CF01931D8C78B9008FC781 /* Resources */,
+				7F7C901A423C3D0BAD2862C0 /* [CP] Embed Pods Frameworks */,
+				70B3A668CEEDEFB8FC3D959A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,9 +447,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80CF01BD1D8C78B9008FC781 /* Build configuration list for PBXNativeTarget "Test-NeonTests" */;
 			buildPhases = (
+				4770A16DF79BB665626BD702 /* [CP] Check Pods Manifest.lock */,
 				80CF01AD1D8C78B9008FC781 /* Sources */,
 				80CF01AE1D8C78B9008FC781 /* Frameworks */,
 				80CF01AF1D8C78B9008FC781 /* Resources */,
+				63E599DAA0AFC6E03044DE3E /* [CP] Embed Pods Frameworks */,
+				C5C68177077549DDEAE4EB91 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,20 +516,135 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80577BCD1D8F4F6500722967 /* GetHistoryResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4770A16DF79BB665626BD702 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		63E599DAA0AFC6E03044DE3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Test-NeonTests/Pods-Test-NeonTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70B3A668CEEDEFB8FC3D959A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Test-Neon/Pods-Test-Neon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F7C901A423C3D0BAD2862C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Test-Neon/Pods-Test-Neon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D8884CBAEE3ACDD3A66EC6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5C68177077549DDEAE4EB91 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Test-NeonTests/Pods-Test-NeonTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		80CF01911D8C78B9008FC781 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80CF019D1D8C78B9008FC781 /* AppDelegate.m in Sources */,
-				80CF01A01D8C78B9008FC781 /* MasterViewController.m in Sources */,
+				808680651D8C8D4F001567F1 /* PersonsDAO.m in Sources */,
+				80577BD61D8F5EA300722967 /* NeonDateFormatter.m in Sources */,
+				80577BC81D8F259C00722967 /* SendPopUpConfirmationViewController.m in Sources */,
+				80496CDA1D8F0D4F00C2885E /* ContactViewCell.m in Sources */,
+				80496CD41D8EFC0B00C2885E /* ContactsViewController.m in Sources */,
+				8086805A1D8C84DA001567F1 /* PersonModel.m in Sources */,
+				80CF01CC1D8C80AD008FC781 /* BaseModel.m in Sources */,
+				808680681D8C8EEF001567F1 /* BaseDAO.m in Sources */,
+				80577BD31D8F555C00722967 /* TransferModelView.m in Sources */,
+				80496CDD1D8F0DB200C2885E /* PersonModelView.m in Sources */,
+				80496CD71D8EFC1E00C2885E /* HistoryViewController.m in Sources */,
+				80CF01C91D8C7B8F008FC781 /* AppDelegate.m in Sources */,
+				8086805D1D8C8A5D001567F1 /* TransferModel.m in Sources */,
+				808680821D8CC278001567F1 /* TransferWS.m in Sources */,
+				80496CC81D8E0BF100C2885E /* ErrorHandler.m in Sources */,
+				80496CD11D8E1A7200C2885E /* HomeViewController.m in Sources */,
+				80577BC51D8F17D600722967 /* UIColor+NeonColors.m in Sources */,
+				80496CC11D8E08BA00C2885E /* UserDAO.m in Sources */,
+				80577BCB1D8F3DC300722967 /* TransferRequestModel.m in Sources */,
+				80577BD01D8F549E00722967 /* ContactHistoryViewCell.m in Sources */,
 				80CF019A1D8C78B9008FC781 /* main.m in Sources */,
-				80CF01A31D8C78B9008FC781 /* DetailViewController.m in Sources */,
+				8086806B1D8CB5D2001567F1 /* DateConverter.m in Sources */,
+				808680611D8C8BC7001567F1 /* GeneratePersonsUtil.m in Sources */,
+				8086807E1D8CC1D6001567F1 /* WebServiceClient.m in Sources */,
+				80496CC41D8E096600C2885E /* ModelConverter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +652,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				808680791D8CC0C5001567F1 /* TransferModelTests.m in Sources */,
+				80577BDB1D8F66C800722967 /* PersonModelViewTests.m in Sources */,
+				80577BDD1D8F682600722967 /* TransferModelViewTests.m in Sources */,
+				80496CCE1D8E12BD00C2885E /* TransferWSTests.m in Sources */,
+				808680711D8CB709001567F1 /* BaseTest.m in Sources */,
+				808680771D8CB807001567F1 /* PersonsDAOTests.m in Sources */,
 				80CF01B61D8C78B9008FC781 /* Test_NeonTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +776,7 @@
 		};
 		80CF01BB1D8C78B9008FC781 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 626121073654B49FDFCE4BDA /* Pods-Test-Neon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Test-Neon/Info.plist";
@@ -356,6 +788,7 @@
 		};
 		80CF01BC1D8C78B9008FC781 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6DD394BB370CE3F6924DADF /* Pods-Test-Neon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Test-Neon/Info.plist";
@@ -367,6 +800,7 @@
 		};
 		80CF01BE1D8C78B9008FC781 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 225DD19DFAEFB83A0DA58DD8 /* Pods-Test-NeonTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Test-NeonTests/Info.plist";
@@ -379,6 +813,7 @@
 		};
 		80CF01BF1D8C78B9008FC781 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F087A394F9DF903A768C8693 /* Pods-Test-NeonTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Test-NeonTests/Info.plist";
@@ -408,6 +843,7 @@
 				80CF01BC1D8C78B9008FC781 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80CF01BD1D8C78B9008FC781 /* Build configuration list for PBXNativeTarget "Test-NeonTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +852,7 @@
 				80CF01BF1D8C78B9008FC781 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
